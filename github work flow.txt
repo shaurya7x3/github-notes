@@ -1,0 +1,40 @@
+GitHub Workflow
+Create a repository:
+
+Start by creating a new repository on GitHub. Specify a name, description, and choose public or private visibility.
+Optionally, initialize the repository with a README file and .gitignore file to specify which files to exclude from version control.
+Clone the repository:
+
+Clone the repository to your local machine using the git clone command or by downloading the repository as a ZIP file.
+Cloning allows you to work on the project locally and sync changes with the remote repository.
+Create branches:
+
+Create a new branch for each new feature, bug fix, or code modification using the git branch command.
+Switch between branches using git checkout.
+Make changes:
+
+Modify files, add new code, or make any desired changes within the branch.
+Use git status to check the status of your changes and git diff to view differences between versions.
+Commit changes:
+
+Stage your changes using git add to select which files to include in the commit.
+Commit the changes with a descriptive message using git commit -m "Your message here".
+Push changes:
+
+Push your committed changes to the remote repository using git push.
+This updates the branch on GitHub and makes your changes visible to others.
+Open a pull request:
+
+On GitHub, open a pull request to propose changes from your branch to the main branch.
+Provide a detailed description of the changes, reference related issues, and assign reviewers.
+Review and merge:
+
+Reviewers can comment on the changes, suggest modifications, and ensure code quality.
+Once the pull request is approved, the changes can be merged into the main branch.
+Resolve conflicts (if any):
+
+If there are conflicts between your changes and the main branch, resolve them by manually merging or choosing which changes to keep.
+Conflicts occur when the same lines of code have been modified differently in separate branches.
+Delete branches:
+
+After merging changes, delete the branch to keep the repository clean and avoid unnecessary clutter.
